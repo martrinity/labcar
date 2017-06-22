@@ -65,13 +65,14 @@
 	font-weight: bold;
 
 }
+
 .info-caja h3{
 	padding-top: 40px;
 } 
+
 .celu-xs{
 	
 }
-
 
 .third-section{
 	width: 100%;
@@ -79,6 +80,21 @@
 	background-image: url(../img/conduce.jpg);
 	background-position: center;
 	background-size: cover;	
+
+}
+
+.conduce{
+	margin-top: 30px;
+	background-color: rgba(0,0,0,0.5);
+	height: 500px;
+	color: #fff;
+}
+
+.conduce button{
+	background-color: orange;
+	border: none;
+	color: white;
+	margin-top:20px;
 
 }
 
