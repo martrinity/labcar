@@ -45,10 +45,10 @@
 
 							</div><!-- cierre caja -->
 							<div class="caja1-xs hidden-md hidden-lg text-center"> <!-- texto vista movil -->
-						<h1>Comienza a </br> viajar con </h1>
-							<img src="assets/img/logo-blanco.png">
-							<button type="submit">Descarga el app</button>
-					</div>
+								<h1>Comienza a </br> viajar con </h1>
+								<img src="assets/img/logo-blanco.png">
+								<button type="submit">Descarga el app</button>
+							</div>
 						</div>
 
 					</div>
@@ -73,17 +73,20 @@
 
 				</div>
 				<div class="row">
-					<div class="hidden-lg hidden-md hidden-sm col-xs-8 text-center caja-xs">
+					<div class="hidden-lg hidden-md hidden-sm col-xs-10 text-center caja-xs">
 						<div class="col-xs-8">
-						<div class="row">
-							<h2 class="text-center">La nueva app</h2>
-							<img src="assets/img/celular.png" alt="celu-xs">
-						</div>
+							<div class="row">
+								<h2 class="text-center">La nueva app</h2>
+								<img src="assets/img/celular.png" alt="celu-xs">
+							</div>
 							
+						</div>
+						<div class="row text-center">
+							<p class="text-center">Llega a tu destino más rápido</p>
 						</div>
 
 					</div><!-- cierre seccion mobile -->
-					<p class="text-center">Llega a tu destino más rápido</p>
+
 				</div>
 			</div><!-- cierre container -->
 		</section><!-- cierre section2 -->
@@ -98,12 +101,35 @@
 				</div>
 
 			</section><!-- cierre seccion3 -->
+			<section class="fourth-section">
+				<div class="container-fluid">
+					<div class="row">
+						<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 text-center caja-input">
+							<h3>Tarifas</h3>
+							<p>Consulta las tarifas Labcar aquí</p>
+							<img src="assets/img/circulo.png">					
+							<input class="inicio" id="origen" placeholder="Desde..."><br><br>
+							<img src="assets/img/flecha.png">					
+							<input class="fin" id="destino" placeholder="Hasta..."><br><br>
+							<button type="button" class="btn btn-default">¡TRAZAR RUTA!</button>
+						</div><!-- cierre caja imput -->
+						<div class="col-lg-6 col-md-6 hidden-xs hidden-sm text-center caja-mapa">
+						<div id="map">
+								<!--mapa-->
+							</div>
+						</div>
+					</div>
+				</div><!-- cierre container -->
+			</section><!-- cierre section4 -->
 
 
 
 			<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 			<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-			<script type="text/javascript" src="assets/js/main.js"></script>
-			<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBFyQ7-5SsXS3PJbnwems9f2pqh0VEabFM&callback=initMap&libraries=places"></script>	
-		</body>
-		</html>
+			<script type="text/javascript" src="assets/js/app.js"></script>
+			<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBFyQ7-5SsXS3PJbnwems9f2pqh0VEabFM&callback=initMap&libraries=places"></script>
+			<script async defer
+			src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC7KbjdK1ABl_j0xsI-Tahvo9XSlE2mklo&callback=initMap">
+		</script>
+	</body>
+	</html>
